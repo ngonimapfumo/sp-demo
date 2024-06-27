@@ -21,12 +21,4 @@ class StudentController {
     fun getStudents(): List<Student> =
         studentService.getStudents()
 
-    @PostMapping
-    fun addStudent() {
-    }
-
-    @DeleteMapping
-    fun deleteStudent() {
-
-    }
 }
